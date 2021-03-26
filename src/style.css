@@ -1,0 +1,26 @@
+:root {
+  --white: #f1f1f1;
+  --dark-gry: #b8b8b8;
+  --dark-blue: #1a1a2e;
+  --dark-blue1: #0f3460;
+  --fucsia: #e94560;
+}
+html {
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: rgb(25, 25, 25);
+  background: linear-gradient(
+    294deg,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(17, 17, 57, 1) 100%
+  );
+  font-family: "Open Sans", sans-serif;
+}
